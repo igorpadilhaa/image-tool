@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+	mavenCentral();
+}
+
+dependencies {
+    implementation project(':image-data')
+}
+
+run {
+    mainClass = 'com.github.igorpadilhaa.imageapp.Main'
+}
